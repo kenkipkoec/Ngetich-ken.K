@@ -58,6 +58,7 @@ export default function Home() {
             <Link href="#skills">Skills</Link>
             <Link href="#projects">Projects</Link>
             <Link href="#contact">Contact</Link>
+            <Link href="#resume">Resume</Link>
           </nav>
           <ThemeAndTopButton />
         </div>
@@ -188,6 +189,32 @@ export default function Home() {
           <div className="contact-card contact-form-card">
             <h3>Contact Me</h3>
             <ContactForm />
+          </div>
+        </div>
+      </section>
+
+      <section className="section resume-section" id="resume">
+        <div className="section-grid">
+          <div>
+            <h2>Resume / CV</h2>
+            <p>Download my detailed resume to learn more about my experience, education, and qualifications.</p>
+            <div className="resume-card">
+              <div className="resume-preview">
+                <div className="pdf-icon">📄</div>
+                <div className="resume-info">
+                  <h3>Ken Kipkoech Ngetich</h3>
+                  <p>Full-Stack Developer & Software Engineer</p>
+                </div>
+              </div>
+              <div className="resume-actions">
+                <a href="/Ken Kipkoech Ngetich (kenaki).pdf" download className="btn btn-primary">
+                  Download CV
+                </a>
+                <a href="/Ken Kipkoech Ngetich (kenaki).pdf" target="_blank" rel="noreferrer" className="btn btn-secondary">
+                  View Online
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
