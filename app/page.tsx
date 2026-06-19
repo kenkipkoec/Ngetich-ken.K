@@ -51,7 +51,8 @@ export default function Home() {
       <header className="site-header">
         <div className="nav-inner">
           <Link href="#home" className="brand">
-            Ngetich Ken
+            <Image src="/tab&icon.png" alt="Ngetich Ken logo" width={36} height={36} className="brand-logo" />
+            <span>Ngetich Ken</span>
           </Link>
           <nav className="nav-links">
             <Link href="#about">About</Link>
